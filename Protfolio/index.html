@@ -1,0 +1,173 @@
+<!DOCTYPE html> 
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="scroll-button">
+    <a href="#home"><i class="fas fa-arrow-up"></i></a>
+  </div>
+  <nav>
+    <div class="navbar">
+      <div class="logo"><a href="#">Portfolio</a></div>
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#services">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <div class="cancel-btn">
+          <i class="fas fa-times"></i>
+        </div>
+      </ul>
+      <div class="media-icons">
+        <a href="https://github.com/YatharthPandya"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/yatharth-pandya-ba8786214/"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/yatharth.pandya/"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+  <section class="home" id="home">
+    <div class="home-content">
+      <div class="text">
+        <div class="text-one">Hello,</div>
+        <div class="text-two">I'm Yatharth Pandya</div>
+        <div class="text-three">Frontend Developer</div>
+      </div>
+  </section>
+  <section class="about" id="about">
+    <div class="content">
+      <div class="title"><span>About Me</span></div>
+      <div class="about-details">
+        <div class="left">
+          <img src="images/about.jpg" alt="Portfolio">
+        </div>
+        <div class="right">
+          <div class="topic">I'm Yatharth Pandya</div>
+          <p>I am pursuing Btech in Computer Science Engineering from Ujjain Engineering College, Ujjain. I am a quick learner with a great intrest in software development and programming. I am passionate about exploring new technologies. I am a nice gracious person. I am honest and punctual with hard-working attitude. I works well in a team as well as when working solo. I am having good communication skills. I am always up for challenges.</p>
+          <div class="button">
+            <a href="YatharthResume.pdf"><button>Download CV</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="skills" id="skills">
+    <div class="content">
+      <div class="title"><span>My Skills</span></div>
+      <div class="skills-details">
+        <div class="boxes">
+          <div class="box">
+            <div class="topic">C</div>
+            <div class="per">90%</div>
+          </div>
+          <div class="box">
+            <div class="topic">C++</div>
+            <div class="per">95%</div>
+          </div>
+          <div class="box">
+            <div class="topic">Java</div>
+            <div class="per">80%</div>
+          </div>
+          <div class="box">
+            <div class="topic">Data Structures</div>
+            <div class="per">90%</div>
+          </div>
+          <div class="box">
+            <div class="topic">Algorithms</div>
+            <div class="per">80%</div>
+          </div>
+          <div class="box">
+            <div class="topic">MySQL</div>
+            <div class="per">85%</div>
+          </div>
+          <div class="box">
+            <div class="topic">HTML</div>
+            <div class="per">90%</div>
+          </div>
+          <div class="box">
+            <div class="topic">CSS</div>
+            <div class="per">80%</div>
+          </div>
+          <div class="box">
+            <div class="topic">Javascript</div>
+            <div class="per">70%</div>
+          </div>
+          <div class="box">
+            <div class="topic">Bootstrap</div>
+            <div class="per">80%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="services" id="services">
+    <div class="content">
+      <div class="title"><span>Education</span></div>
+      <div class="boxes">
+        <div class="box">
+          <div class="icon">
+            <i class='fas fa-graduation-cap' style='font-size:24px'></i>
+          </div>
+          <div>2020-24</div>
+          <div class="topic">Bachelor of Technology</div>
+          <p>I am in 5th semester of Btech in Computer Science and Engineering from Ujjain Engineering College, Ujjain.</p>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class='fas fa-graduation-cap' style='font-size:24px'></i>
+          </div>
+          <div>2019-20</div>
+          <div class="topic">12th Grade</div>
+          <p>I have completed my 12th grade from Gyan Sagar Academy, Ujjain, in CBSE board with score of 95.4%</p>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class='fas fa-graduation-cap' style='font-size:24px'></i>
+          </div>
+          <div>2017-18</div>
+          <div class="topic">10th Grade</div>
+          <p>I have completed my 10th grade from St.Thomas School, Ujjain, in ICSE board with score of 81.7%</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="contact" id="contact">
+    <div class="content">
+      <div class="title"><span>Contact Me</span></div>
+      <div class="container">
+        <form action="#" name="contact_form">
+          <label for="first_name">Name</label>
+          <input name="first_name" type="text" required placeholder="Enter your name"/>
+          <br>
+          <label for="email">Email</label>
+          <input name="email" type="email" required placeholder="Enter your email"/>
+          <br>
+          <label for="message">Message</label><br>
+          <textarea name="message" cols="30" rows="10" placeholder="Enter your message here ..." required> </textarea>
+          <div class="center">
+            <input type="submit" value="Send">
+          </div>
+        </form>	
+      </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="text">
+      <span>Created By Yatharth Pandya.</span>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
